@@ -1,0 +1,233 @@
+body{
+    background-color: #5d8ff3;
+    font-family: Arial,sans-serif;
+}
+
+/*navigation*/
+#logo{
+    float: left;
+    max-height: 103px;
+    max-width: 250px;
+    min-height: 52px;
+    min-width: 125px;
+    position: fixed;
+    top: 1%;
+    z-index: 1;
+}
+
+nav{
+    position: fixed;
+    top: 5%;
+    height: 4%;
+    width: 90%;
+    padding-left: 9%;
+    min-width: 100px;
+    background: rgba(255,255,255,0.7);
+    z-index: 0;
+}
+
+.nav_button{
+    float: left;
+    height: 100%;
+    width: auto;
+    font-size: 25px;
+    margin-left: 3%;
+    margin-right: 1%;
+    text-align: center;
+    font-weight: bold;
+    color: #052e64;
+}
+
+.nav_button:hover{
+    background-color: #ace000;
+}
+
+@media only screen and (max-width: 600px and down) {
+    #logo{
+    float: left;
+    max-height: 103px;
+    max-width: 250px;
+    min-height: 52px;
+    min-width: 125px;
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    /*position: fixed;
+    top: 5%;
+    height: 4%;
+    width: 90%;
+    padding-left: 9%;
+    min-width: 100px;
+    background: rgba(255,255,255,0.7);
+    z-index: 0;*/
+}
+
+.nav_button{
+    /*float: left;
+    height: 100%;
+    width: auto;
+    font-size: 25px;
+    margin-left: 3%;
+    margin-right: 1%;
+    text-align: center;
+    font-weight: bold;
+    color: #052e64;*/
+}
+}
+/*pagecontent*/
+main{
+    margin-top: 8%;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+/*Index*/
+#dragon_info_box{
+    width: 97%;
+    height: 500px;
+    padding-left: 2%;
+    padding-right: 1%;
+    background-image: url("../Images/dragekongen.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+}
+
+#pirat-info-box{
+    width: 97%;
+    height: 500px;
+    padding-left: 2%;
+    padding-right: 1%;
+    background-image: url("../Images/djurs-pirat.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+}
+
+#juvel_info_box{
+    width: 97%;
+    height: 500px;
+    padding-left: 2%;
+    padding-right: 1%;
+    background-image: url("../Images/djurs-juvelen.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+}
+
+#farm_info_box{
+    width: 97%;
+    height: 500px;
+    padding-left: 2%;
+    padding-right: 1%;
+    background-image: url("../Images/djurs-bondegaard.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+}
+
+#vand_info_box{
+    width: 97%;
+    height: 500px;
+    padding-left: 2%;
+    padding-right: 1%;
+    background-image: url("../Images/djurs-vand.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+}
+
+.main_headlines{
+    font-size: 28px;
+    color: #ffffff;
+    text-shadow: 2px 2px 0 #052e64;
+    font-weight: bold;
+}
+
+.main_text{
+    font-size: 16px;
+    color: #000000;
+    background: rgba(255,255,255,0.7);
+    font-weight: bold;
+}
+
+/*fotter*/
+footer{
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    margin-right:auto;
+    margin-left: auto;
+    float: left;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+#footer-images{
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+#footer_content{
+    height: auto;
+    min-height: 2%;
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    float: left;
+    background-color: #ace000;
+}
+
+.footer_content_headline{
+    text-align: center;
+}
+
+.footer_content_p{
+    text-align: center;
+}
+
+#times{
+    max-height: 225px;
+    max-width: 620px;
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pris{
+    max-height: 225px;
+    max-width: 620px;
+    width: 100%;
+    height: 100%;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+}
